@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pomodoro Timer First Brainstorm</title>
+    </head>
+    <body>
+        <header>
+            <div>
+                <h1>Brainstorming</h1>
+                <h3>10/2/2021</h3>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#attendance">Attendance</a></li>
+                    <li><a href="#agenda">Agenda</a></li>
+                    <li><a href="#unfinished business">Unfinished Business</a></li>
+                    <li><a href="#new business">New Business</a></li>
+                    <li><a href="#miscellaneous">Miscellaneous</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+            <h2 id="attendance">Attendance</h2>
+                <ul>
+                    <li>Os</li>
+                    <li>Reina</li>
+                    <li>Percy</li>
+                    <li>Candwin</li>
+                    <li>Hiro</li>
+                </ul>
+            </section>
+
+            <section>
+            <h2 id="agenda">Agenda</h2>
+                <ol>
+                    <li><input type="checkbox" />Project goals</li>
+                    <li><input type="checkbox" />Individual roles</li>
+                    <li><input type="checkbox" />Scheduling</li>
+                </ol>
+            </section>
+
+            <section>
+            <h2 id="unfinished business">Unfinished Business</h2>
+            <p>No unfinished business, as this is the first meeting.</p>
+            </section>
+
+            <section>
+            <h2 id="new business">New Business</h2>
+            <p>Decide how to split the project into more managable scetions. Assign a team lead for each section.</p>
+            </section>
+
+            <section>
+            <h2 id="miscellaneous">Miscellaneous</h2>
+            <p>Hiro will be in charge of future meeting scheduling.</p>
+            <img src="tomato.jpg" alt="Pomodoro timer" width="100" height="80">
+            <a href="https://pomofocus.io/">Pomodoro Example Website</a>
+            <link rel="icon" type="image/png" href="tomato_icon.png">
+            <br/>
+            <video width="320" height="240" controls>
+                <source src="video.mp4" type="video/mp4">
+            </video>
+            <br/>
+            <audio controls>
+                <source src="audio.mp3" type="audio/mpeg">
+            </audio>
+            </section>
+            
+        </main>
+        <hr />
+        <footer>
+            <h4 id="Confirmation"><strong>Meeting Notes Acknoledgement</strong></h4>
+            <form onsubmit="alert('Email Accepted')">
+                <input type="text" placeholder="Enter Email Address"/>
+                <button><b><span style="color:firebrick">Submit</span></b></button>
+            <details>
+                <summary>Why enter my email?</summary>
+                You will be be receiving a helpful reminder a few days prior to the next meeting.
+            </details>
+            </form>
+            <br />
+            <h5><i><em>Thank you</em> for attending!</i></h5>
+        </footer>
+        <textarea name="textarea" rows="1" cols="2">Addtional Notes:</textarea>
+        <form>
+            <fieldset>
+                <legend>How was this meeting?</legend>
+                <input type="radio" id="Great" name="day">
+                <label for="Great">Great</label><br/>
+                <input type="radio" id="Okay" name="day">
+                <label for="Okay">Okay</label><br/>
+                <input type="radio" id="Bad" name="day">
+                <label for="Bad">Bad</label>
+                <br/><br/>
+                <label for="meeting-date">What meeting day works best for you?</label>
+                <input list="meeting-dates" id="meeting-date" name="meeting-date"/>
+                <datalist id="meeting-dates">
+                    <option value="monday">Monday</option>
+                    <option value="tuesday">Tuesday</option>
+                    <option value="wednesday">Wednesday</option>
+                    <option value="thursday">Thursday</option>
+                    <option value="friday">Friday</option>
+                </datalist>
+                <br/><br/>
+                <legend>What day would you prefer we have lunch?</legend>
+                <input type="date" id="start" name="lunch-date" value="2021-10-03" min="2021-10-03" max="2021-12-01">
+                <br/><br/>
+                <label for="animal">Favorite pet?</label>
+                <select name="animal" id="animal">
+                    <option value="dogs">Dogs</option>
+                    <option value="cats">Cats</option>
+                </select>
+            </fieldset>
+        </form>
+    </body>
+</html>
+
+
+
+<!--a title (e.g. "Pomodoro Timer First Brainstorm")
+subtitle for the meeting section/the topic of the meeting (e.g. "brainstorming", "check-ins", "documentation")
+subtitle for the date
+attendance list
+agenda of what the meeting will cover
+things that were unfinished business from last meeting
+things that are new business that need to be talked about
+any miscellaneous comments / questions / concerns that anyone would like to bring up
+pictures of any diagrams / architecture / things that were presented
+SWE meetings often have people diagram things on a whiteboard so we want those captured as well
+For the following two, you can simply take a 30 second pretend audio recording & video recording to use, we are just trying to get you familiar with the <audio> and <video> elements. Yes, you must have both audio and video elements, and yes, you can use the audio from the video you took for the audio element, it just has to be in a separate audio file.
+audio recording the meeting
+video recording of the meeting-->
+<!--
+link (usually <link> is used to link a stylesheet, but since we're not using CSS, you can use it to link a favicon instead)
+audio
+video
+-->
