@@ -74,3 +74,23 @@ fieldset > * {
     color:darkslateblue;
 }
 
+section {
+    margin: auto;
+    padding-left: 2%;
+    border-style: dotted;
+    border-color: midnightblue;
+    background-color: #edf4ff;
+    border-width: 2px;
+    text-align: left;
+}
+
+h2 + p {
+    color:darkslateblue;
+    font-size: 20px;
+}
+h2 ~ ul {
+    background-color:rgb(240, 248, 255);
+}
+ol:active {
+    background-color:rgb(240, 248, 255);
+}
