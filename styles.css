@@ -31,6 +31,10 @@ button {
     background-color: hsla(217, 100%, 40%, 20%);
     position: static;
 }
+button:hover {
+    background-color: hsla(217, 100%, 40%, 40%);
+}
+
 
 #placeholder {
     font-family: 'Birthstone', cursive;
@@ -51,3 +55,22 @@ h1, h2, h3 {
     max-width: 50%;
     min-width: none;
 }
+
+textarea {
+    background: #edf4ff;
+    border: 2px inset navy;
+}
+fieldset {
+    background: #edf4ff;
+    border: 2px inset navy;
+}
+input:active {
+    background-color: hsla(217, 100%, 40%, 40%);
+}
+select option {
+    color:midnightblue;
+}
+fieldset > * {
+    color:darkslateblue;
+}
+
