@@ -1,0 +1,33 @@
+footer {
+    margin: auto;
+    padding-top: 1%;
+    border-style: dotted;
+    border-color: midnightblue;
+    background-color: #edf4ff;
+    border-width: 2px;
+    border-radius: 1px 100px / 100px;
+    text-align: center;
+}
+h4 {
+    margin-top: 3px;
+    margin-bottom: 20px;
+    text-decoration: underline dashed navy;
+    font-size: 3vh;
+    font-family: 'Gemunu Libre', sans-serif;
+    color: rgb(0, 0, 100);
+    position: relative;
+}
+input {
+    font-size: 1em;
+    color: navy;
+    margin: 1px;
+    padding: 1mm 30vw;
+    border: 2px inset navy;
+}
+button {
+    color: navy;
+    border: 2px inset navy;
+    padding: 2Q 40vw;
+    background-color: hsla(217, 100%, 40%, 20%);
+    position: static;
+}
