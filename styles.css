@@ -8,7 +8,7 @@ footer {
     border-radius: 1px 100px / 100px;
     text-align: center;
 }
-h4 {
+h4.Confirmation {
     margin-top: 3px;
     margin-bottom: 20px;
     text-decoration: underline dashed navy;
@@ -30,4 +30,24 @@ button {
     padding: 2Q 40vw;
     background-color: hsla(217, 100%, 40%, 20%);
     position: static;
+}
+
+#placeholder {
+    font-family: 'Birthstone', cursive;
+    height: 20px;
+    width: 90%;
+    font-size: 5vmin;
+    color: gray;
+}
+.subheader {
+    color:midnightblue;
+    display: inline;
+}
+.dontshow {
+    display: none;
+}
+h1, h2, h3 {
+    font-family: 'Gemunu Libre', sans-serif;
+    max-width: 50%;
+    min-width: none;
 }

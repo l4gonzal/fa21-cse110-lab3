@@ -2,6 +2,9 @@
 <html lang="en">
     <head>
         <style>
+            @import url('https://fonts.googleapis.com/css2?family=Birthstone&display=swap');
+            </style>
+        <style>
             @import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap');
         </style>
         <link rel="stylesheet" href="styles.css">
@@ -13,7 +16,7 @@
     <body>
         <header>
             <div>
-                <h1>Brainstorming</h1>
+                <h1 class="header">Brainstorming</h1>
                 <h3>10/2/2021</h3>
             </div>
             <nav>
@@ -27,8 +30,9 @@
             </nav>
         </header>
         <main>
+            <hr/>
             <section>
-            <h2 id="attendance">Attendance</h2>
+            <h2 class="subheader" id="attendance">Attendance</h2>
                 <ul>
                     <li>Os</li>
                     <li>Reina</li>
@@ -37,40 +41,49 @@
                     <li>Hiro</li>
                 </ul>
             </section>
+            <hr/>
 
             <section>
-            <h2 id="agenda">Agenda</h2>
+            <h2 class="subheader" id="agenda">Agenda</h2>
                 <ol>
                     <li><input type="checkbox" />Project goals</li>
                     <li><input type="checkbox" />Individual roles</li>
                     <li><input type="checkbox" />Scheduling</li>
                 </ol>
             </section>
+            <hr/>
 
             <section>
-            <h2 id="unfinished_business">Unfinished Business</h2>
+            <h2 class="subheader" id="unfinished_business">Unfinished Business</h2>
             <p>No unfinished business, as this is the first meeting.</p>
             </section>
+            <hr/>
 
             <section>
-            <h2 id="new_business">New Business</h2>
+            <h2 class="subheader" id="new_business">New Business</h2>
             <p>Decide how to split the project into more managable scetions. Assign a team lead for each section.</p>
             </section>
+            <hr/>
 
             <section>
-            <h2 id="miscellaneous">Miscellaneous</h2>
-            <p>Hiro will be in charge of future meeting scheduling.</p>
+            <h2 class="subheader" id="miscellaneous">Miscellaneous</h2>
+            <p class="dontshow">test</p>
+            <p id="placeholder">Example notes here</p>
             <img src="tomato.jpg" alt="Pomodoro timer" width="100" height="80">
+            <p id="placeholder">Example links here</p>
             <a href="https://pomofocus.io/">Pomodoro Example Website</a>
             <br/>
+            <p id="placeholder">Example videos here</p>
             <video width="320" height="240" controls>
                 <source src="video.mp4" type="video/mp4">
             </video>
             <br/>
+            <p id="placeholder">Example audio here</p>
             <audio controls>
                 <source src="audio.mp3" type="audio/mpeg">
             </audio>
             </section>
+            
         </main>
         <hr />
 
