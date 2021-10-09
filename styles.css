@@ -94,3 +94,26 @@ h2 ~ ul {
 ol:active {
     background-color:rgb(240, 248, 255);
 }
+
+a[href^="#"] {
+    color:cornflowerblue;
+}
+
+#myflexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.mygrid {
+    display: grid;
+    grid-template-columns: 20% 20%;
+    grid-template-rows: 80%;
+    justify-self: start;
+}
+
+@media (max-width: 12450px) {
+    #hidden-text {
+        color: #edf4ff;
+    }
+}
